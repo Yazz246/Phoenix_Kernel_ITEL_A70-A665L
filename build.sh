@@ -27,7 +27,7 @@ else
 fi
 
 # Define the base command with shared options
-base_command='make ARCH="arm64" O="out" CC="clang" CLANG_TRIPLE="aarch64-linux-gnu-" CROSS_COMPILE="aarch64-linux-android-" CROSS_COMPILE_ARM32="arm-linux-androideabi-" LD="ld.lld" AR="llvm-ar" NM="llvm-nm" OBJCOPY="llvm-objcopy" OBJDUMP="llvm-objdump" READELF="llvm-readelf" OBJSIZE="llvm-size" STRIP="llvm-strip" LDGOLD="aarch64-linux-gnu-ld.gold" LLVM_AR="llvm-ar" LLVM_DIS="llvm-dis" BSP_BUILD_ANDROID_OS="y" BSP_BUILD_FAMILY="qogirl6"'
+base_command='make ARCH="arm64" O="out" CC="clang" CLANG_TRIPLE="aarch64-linux-gnu-" CROSS_COMPILE="aarch64-linux-android-" CROSS_COMPILE_ARM32="arm-linux-androideabi-" LD="ld.lld" AR="llvm-ar" NM="llvm-nm" OBJCOPY="llvm-objcopy" OBJDUMP="llvm-objdump" READELF="llvm-readelf" OBJSIZE="llvm-size" STRIP="llvm-strip" LDGOLD="aarch64-linux-gnu-ld.gold" LLVM_AR="llvm-ar" LLVM_DIS="llvm-dis" BSP_BUILD_ANDROID_OS="y" BSP_BUILD_FAMILY="sharkl3"'
 
 # Execute the respective command based on the input
 case "$1" in
