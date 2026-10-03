@@ -68,7 +68,7 @@
             "enable": false,
             "custom": {
                 "user": "rifsxd",
-                "branch": "3.4.0",
+                "branch": "legacy",
                 "repo": "KernelSU-Next"
             }
         }
