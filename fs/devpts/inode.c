@@ -598,7 +598,7 @@ struct dentry *devpts_pty_new(struct pts_fs_info *fsi, int index, void *priv)
 
 #ifdef CONFIG_KSU
 #ifndef CONFIG_KSU_WITH_KPROBES
-extern int ksu_handle_devpts(struct inode*);
+//extern int ksu_handle_devpts(struct inode*);
 #endif
 #endif
 
@@ -618,7 +618,7 @@ void *devpts_get_priv(struct dentry *dentry)
 
 #ifdef CONFIG_KSU
 #ifndef CONFIG_KSU_WITH_KPROBES
-		ksu_handle_devpts(dentry->d_inode);
+//		ksu_handle_devpts(dentry->d_inode);
 #endif
 #endif
 
