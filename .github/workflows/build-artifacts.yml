@@ -1,4 +1,4 @@
-name: Build PhoenixKernel
+name: Build Phoenix Kernel
 
 on:
 #  push:
