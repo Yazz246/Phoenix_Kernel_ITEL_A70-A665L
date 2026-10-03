@@ -1,11 +1,11 @@
 [
     {
         "kernelSource": {
-            "name": "itel_a70_phoenix",
+            "name": "itel_a70_phoenix_ksun",
             "repo": "https://github.com/Yazz246/Phoenix_Kernel_ITEL_A70-A665L",
-            "branch": "dev",
+            "branch": "ksun",
             "device": "itel_a70",
-            "defconfig": "itel_a70_phoenix_defconfig"
+            "defconfig": "itel_a70_phoenix_ksun_defconfig"
         },
         "toolchains": [
             {
@@ -65,10 +65,10 @@
             }
         },
         "KernelSU": {
-            "enable": false,
+            "enable": true,
             "custom": {
-                "user": "rifsxd",
-                "branch": "3.4.0",
+                "user": "KernelSU-Next",
+                "branch": "legacy",
                 "repo": "KernelSU-Next"
             }
         }
