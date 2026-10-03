@@ -53,7 +53,7 @@
                 "LLVM_AR": "llvm-ar",
                 "LLVM_DIS": "llvm-dis",
                 "BSP_BUILD_ANDROID_OS": "y",
-                "BSP_BUILD_FAMILY": "qogirl6"
+                "BSP_BUILD_FAMILY": "sharkl3"
             }
         },
         "AnyKernel3": {
